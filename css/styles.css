@@ -27,7 +27,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* navbar */
@@ -61,11 +61,15 @@ h3 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position:absolute;
+  right: 30%;
 }
 
 /* Features Section */
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
 }
 
 .feature-box {
@@ -125,3 +129,4 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
